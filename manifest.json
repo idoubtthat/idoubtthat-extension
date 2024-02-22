@@ -1,0 +1,25 @@
+{
+  "description": "Gonna need a citation for your nonsense",
+  "manifest_version": 2,
+  "name": "IDoubtThat",
+  "version": "1.0",
+  "homepage_url": "https://github.com/idoubtthat",
+  "icons": {
+    "48": "icons/basicIcon.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/basicIcon.png",
+    "theme_icons": [{
+        "light": "icons/basicIcon.png",
+        "dark": "icons/basicIcon.png",
+        "size": 32
+    }],
+    "default_title": "IDoubtThat",
+    "default_popup": "popup/addCitation.html"
+  }
+}
